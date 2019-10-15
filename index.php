@@ -33,7 +33,7 @@ $cart = json_encode( $cart );
 ?>
 <script>
 var d = JSON.parse('<?=$cart?>');
-..alert(d.orderID);
+//alert(d.orderID);
 </script>
 
 </body>
